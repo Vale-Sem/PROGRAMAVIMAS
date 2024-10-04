@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atsiliepimų forma</title>
+        <style>
+            .feedback{
+                padding: 5px;
+            }
+            .button{
+                padding-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Atsiliepimų forma</h1>
+       <div class="feedback">
+        <label for="name"> Vardas:</label>
+        <input type="text" id="name" volue="name" placeholder="Įrašykite vardą..." required>
+       </div>
+       <div class="feedback"></div>
+        <label for="email"> El. paštas:</label>
+        <input type="email" id="email" volue="email" placeholder="Įrašykite el. paštą..." required>
+       </div>
+       <div class="feedback"></div>
+        <label for="rate"> Įvertinimas:</label>
+        <select id="rate" name="numbers">
+            <option volue="1">1-labai blogai.</option>
+            <option volue="2">2-blogai.</option>
+            <option volue="3">3-patenkinamai.</option>
+            <option volue="4">1-Gerai.</option>
+            <option volue="5">1-Puikiai.</option>
+        </select>
+       </div>
+       <div class="feedback"></div>
+        <label for="comment"> Komentarai:</label>
+        <textarea type="text" id="comment" volue="comment" placeholder="Įrašykite komentarą..." required rows="5"></textarea>
+       </div>
+       <div class="button">
+        <button type="submit">Pateikti</button>
+       </div>
+    </body>
+</html>

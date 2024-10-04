@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: orangered;
+}
+
+.flex-item{
+   background-color: aquamarine;
+   padding: 20px;
+   margin:15px;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height:100vh;
+    background-color: orange;
+}
+
+.flex-item2{
+   background-color: rgb(161, 177, 220);
+   padding: 20px;
+   margin:15px;
+}   

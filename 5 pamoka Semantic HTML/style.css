@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    background-color: #042940;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.main-header h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px; /* Tarpai tarp meniu punktų */
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #D6D58E; /* Fono spalva pasikeičia užvedus pelę */
+    border-radius: 5px;
+}
+
+main{
+    background-color:#D6D58E;
+    color: #042940;
+    padding: 20px 50px;
+}
+
+.section1{
+    box-shadow: 0px 5px 15px rgba(4, 41, 64, 0.35); /* Pataisyta „box-shadow“ sintaksė */
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.section1 p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.section2{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.section2 img{
+    width: 1168.8px;
+    border-radius: 5px;
+    text-align: center;    
+    box-shadow: 0px 5px 15px rgba(4, 41, 64, 0.35); /* Pataisyta „box-shadow“ sintaksė */
+}
+
+.img{
+    width: 400px;
+}
+
+article{
+    background-color:#D6D58E;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.article h3{
+    padding: 10px 0px;
+    background-color: #D6D58E;
+    color: #042940;
+    text-shadow: 0px 5px 15px rgba(4, 41, 64, 0.35); /* Pataisyta „box-shadow“ sintaksė */
+}
+
+.article a{
+    text-decoration: none;
+    color: #042940;
+    background-color: #D6D58E;
+    text-shadow: 0px 5px 15px rgba(4, 41, 64, 0.35); /* Pataisyta „box-shadow“ sintaksė */
+}
+
+.article a:hover{
+    color: #1774ae;
+}
+
+footer{
+    background-color: #042940;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+}
+
+.footer li{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul{
+    text-align: center;
+    padding: 16px;
+}
+
+.copy{
+    text-align: center;
+}

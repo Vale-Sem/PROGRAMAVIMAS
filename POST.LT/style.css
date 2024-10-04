@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: lightgrey;
+}
+.header{
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px;
+    font-size: 14px;
+    height: 20px;
+}
+#header{
+    color: rgb(194, 194, 194);
+    padding: 5px 100px 5px 100px;
+    text-decoration: none;
+}
+#header:hover{
+    color:rgb(255, 255, 255);
+}
+img{
+    margin: 10px auto 0px 50px;
+}
+.hero{
+    background-image: url(https://www.post.lt/sites/default/files/inline-images/tiesia%20siunta.jpg);
+    height: 500px;
+    padding: 30px 0 30px 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.post-form{
+    width: 300px;
+    height: 310px;  
+    padding: 16px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 5px;
+    color: grey;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+label{
+    padding: 6px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+input{
+    padding-top: 10px;
+}
+.postnumber{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 16px;
+    margin: 0px;
+    color: grey;
+    border: none;
+    border-bottom-style: solid
+}
+#postnumber{
+    padding: 16px;
+    border-radius:5 5 0 0px;
+    color: grey
+}
+#button{
+    padding: 16px;
+    background-color: grey;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.form-a{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 16px;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    color: grey;    
+}
+.form-mail{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-inline: 16px;
+    width: 90%;
+    display: inline-block;
+    position: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(223, 74, 74);
+}
+.form-bc{
+    padding: 10px;
+    border-bottom-style: solid
+}
+a[class="form-a"]:hover{
+    background-color:lightgray
+}
+.post-form2{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: right;
+    border-radius: 5px;
+    position: relative;
+    color: rgb(50, 50, 50);
+    left: 900px;
+    bottom:300px;
+    width: 400px;
+    height: 100px;    
+}
+.likebutton{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 16px;
+    border-radius: 5px;
+}
+.news{
+    width: 1500px;
+    background-color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 20px;
+}
+.card {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 600px;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 2px 16px;
+  }

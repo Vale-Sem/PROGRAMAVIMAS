@@ -1,0 +1,34 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.flex-item {
+    background-color: coral;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex-container.column {
+    flex-direction: column;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.flex-item2 {
+    background-color: coral;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}

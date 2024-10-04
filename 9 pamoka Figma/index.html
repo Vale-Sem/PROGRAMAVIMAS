@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktika su Figma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="Logo.png" alt="logo">
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Properties</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+        </nav>
+
+        <button class="button-contact-us" type="submit">Contact Us</button>
+
+            <nav class="burger-menu" id="burgerMenu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </nav>
+
+        <div class="burger-nav" onclick="toggleBurgerMenu()">
+            <span class="burger-span"><img src="Vector (1).png" alt="burger menu icon"></span>
+        </div>
+       
+    </header>
+
+    <main>
+        <section class="section-1">
+            <div class="item-1">
+                <h1>Building Your Future Accommodation</h1>
+            </div>
+            <div class="item-2">
+                <p>We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.</p>
+                <button class="button-read-more" type="submit">Read more</button>
+            </div>
+            
+        </section>
+
+        <div class="hero-image">
+            <img src="Image.png" alt="Building photo">
+        </div>
+
+        <div class="services-cards">
+
+            <div class="card">
+                <img src="construction trowel-icon.png" alt="construction trowel icon">
+                <h2>Construction</h2>
+                <p>Designing and Building The Most Beautiful Custom Homes.</p>
+            </div>
+
+            <div class="card">
+                <img src="helmet-icon.png" alt="helmet icon">
+                <h2>Project Development</h2>
+                <p>Designing and Building The Most Beautiful Custom Homes.</p>
+            </div>
+
+            <div class="card">
+                <img src="bed-icon.png" alt="construction trowel icon">
+                <h2>Interior Design</h2>
+                <p>Designing and Building The Most Beautiful Custom Homes.</p>
+            </div>
+
+            <div class="card">                
+                <img src="building-icon.png" alt="building-icon">
+                <h2>Architecture</h2>
+                <p>Designing and Building The Most Beautiful Custom Homes.</p>
+            </div>
+
+        </div>
+    </main>
+    
+<script>
+    function toggleBurgerMenu() {
+    const burgerMenu = document.getElementById('burgerMenu');
+    burgerMenu.classList.toggle('open');
+        }
+</script>
+</body>
+</html>
