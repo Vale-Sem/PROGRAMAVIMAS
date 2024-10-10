@@ -1,4 +1,4 @@
-const actionButtonBbutton = document.getElementById ("actionButton");
+const actionButton = document.getElementById ("actionButton");
 actionButton.addEventListener ("click", function(){
     const text = document.getElementById ("text");
     const parentDiv = document.getElementById ("parentDiv");
@@ -9,6 +9,17 @@ actionButton.addEventListener ("click", function(){
     text.innerText = "Tekstas pasikeitė!";
     childText.innerHTML = "<span>New Child</span>";
     box.style.backgroundColor = "green";
-    status
+    status.innerText = "Viskas veikia.";
+    status.style.color = "green";
+    
+    if (text.innerHTML ==="Tekstas pasikeitė!" && 
+        childText.innerHTML === "<span>New Child</span>" &&
+        box.style.backgroundColor === "green") {
+        status.innerText = "Viskas veikia."
+        status.style.color = "green";
+    }
+    else {
+        console.log("Neveikia...")
+    }
 
-})
+ })
